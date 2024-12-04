@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a23; /* Dark night sky */
+    overflow: hidden;
+  }
+  
+  .night-sky {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #151532 40%, #0a0a23 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .moon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #fff 70%, #ddd 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 30px #fff;
+  }
+  
+  .moonlight {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+    border-radius: 50%;
+    filter: blur(50px);
+  }
+  
